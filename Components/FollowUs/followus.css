@@ -41,89 +41,124 @@ body {
 }
 /* END GLOBAL RULES */
 
-/* FOLLOW US SECTION START */
-.followus {
+/* START FOLLOW US SECTION */
+
+ .followUs {
     background-color: #692E81;
-    padding: 0px 0px 60px 0px;
-}
+    padding: 30px 0px 60px ;
+    
+ }
 
-.followus .content {
-    margin: 0 auto;
-    padding: 30px;
-}
-
-.followus .content h2 {
-    margin: 0;
-    text-align: center;
-    color: #FFFFFF;
+ .followUs .content h2{
+    margin:0;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:35px;
     font-weight: 700;
-    font-size: 30px;
-}
+ }
 
-.followus .content p {
-    display: block;
-    width: 50%;
-    text-align: center;
-    padding-top: 30px;
-    margin: 0 auto;
-    color: #D7D7D7;
+ .followUs .content p{
+    color:#D7D7D7;
     font-size: 14px;
-    font-weight: 300;
-}
+    text-align:center;
+    width:60%;
+    margin:0 auto;
+    padding:30px 0px;
+ }
 
-.followus .social-media ul {
+ .followUs .social-media{
+    width:60%;
+    margin: 0px auto;
+ }
+
+ .followUs .social-media ul{
     list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 50%;
-}
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+ }
 
-.followus .social-media ul li {
-    font-size: 30px;
-    padding: 10px;
+ .followUs .social-media ul li{
     background-color: #FFFFFF;
+    padding:25px;
     border-radius: 50%;
-}
+    font-size:30px;
+ }
 
-.followus .social-media ul li:nth-child(1) {
+ .followUs .social-media ul li:nth-child(1){
     color: #FF0000;
-}
+ }
 
-.followus .social-media ul li:nth-child(2) {
+ .followUs .social-media ul li:nth-child(2){
     color: #0072B1;
 }
 
-.followus .social-media ul li:nth-child(3) {
+.followUs .social-media ul li:nth-child(3){
     color: #00ACEE;
 }
 
-.followus .social-media ul li:nth-child(4) {
+.followUs .social-media ul li:nth-child(4){
     color: #4267B2;
 }
 
-.followus .social-media ul li:nth-child(5) {
+.followUs .social-media ul li:nth-child(5){
     color: #1DB954;
 }
-/* FOLLOW US SECTION END */
 
-/* FOOTER SECTION START */
+
+@media (max-width: 768px) {
+    .followUs .content p{
+        width:80%;
+    }
+
+    .followUs .social-media{
+        width:100%;
+    }
+
+    .followUs .social-media ul li{
+        background-color: #FFFFFF;
+        padding:15px;
+        margin:5px;
+        border-radius: 50%;
+        font-size:30px;
+     }
+}
+/* START FOLLOW US SECTION */
+
+/* START FOOTER SECTION */
+
 footer {
     background-color: #000000;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 
-footer p {
-    color: #D7D7D7;
-    margin: 0;
-    padding: 10px 0px;
-    font-size: 12px;
+footer p{
+    color:#FFFFFF;
+    margin:0; 
+    padding: 20px;
+    font-size:14px;
     text-align: center;
 }
-/* FOOTER SECTION END */
+
+
+@media (max-width: 768px) {
+    footer p{
+        margin: 0 auto;
+    }
+    
+    footer p:last-child {
+        padding-top:0;
+        padding-bottom:30px;
+    }
+
+}
+
+
+
+
+
+/* END FOOTER SECTION */
