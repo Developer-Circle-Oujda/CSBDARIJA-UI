@@ -1,0 +1,129 @@
+/* START GLOBAL RULES */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* MEDIA QUERY */
+/* SMALL */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* MEDIUM */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* LARGE */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* END GLOBAL RULES */
+
+/* FOLLOW US SECTION START */
+.followus {
+    background-color: #692E81;
+    padding: 0px 0px 60px 0px;
+}
+
+.followus .content {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.followus .content h2 {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.followus .content p {
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+    color: #D7D7D7;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.followus .social-media ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.followus .social-media ul li {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.followus .social-media ul li:nth-child(1) {
+    color: #FF0000;
+}
+
+.followus .social-media ul li:nth-child(2) {
+    color: #0072B1;
+}
+
+.followus .social-media ul li:nth-child(3) {
+    color: #00ACEE;
+}
+
+.followus .social-media ul li:nth-child(4) {
+    color: #4267B2;
+}
+
+.followus .social-media ul li:nth-child(5) {
+    color: #1DB954;
+}
+/* FOLLOW US SECTION END */
+
+/* FOOTER SECTION START */
+footer {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer p {
+    color: #D7D7D7;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+/* FOOTER SECTION END */
