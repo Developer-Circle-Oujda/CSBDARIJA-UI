@@ -356,6 +356,27 @@ header nav button {
     text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+    header nav .container {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header nav button {
+        display: none;
+    }
+
+    header nav ul {
+        padding-top: 10px;
+    }
+
+    header nav ul li {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+}
+
 header .content {
     padding-top: 80px;
     display: flex;
